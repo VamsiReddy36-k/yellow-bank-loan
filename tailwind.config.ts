@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['DM Sans', 'sans-serif'],
+        display: ['Space Grotesk', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +50,17 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        agent: {
+          bubble: "hsl(var(--agent-bubble))",
+          "bubble-foreground": "hsl(var(--agent-bubble-foreground))",
+        },
+        user: {
+          bubble: "hsl(var(--user-bubble))",
+          "bubble-foreground": "hsl(var(--user-bubble-foreground))",
+        },
+        chat: {
+          bg: "hsl(var(--chat-bg))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
